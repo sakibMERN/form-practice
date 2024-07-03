@@ -1,14 +1,13 @@
-/* empty div adding css */
-div.empty{
 
-    margin: 50px 0;
-    height: 10px;
-    background-color: #988a8a;
-}
 
 /* Form number 1 */
 
-input[type="text"]{
+div.one h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+div.one input[type="text"]{
     width: 100%;
     padding: 8px;
     margin: 8px 0;
@@ -20,7 +19,7 @@ input[type="text"]{
     background-color: darkslateblue;
     color: white;
 }
-input[type="submit"]{
+div.one input[type="submit"]{
     width: 100%;
     padding: 5px 0;
     margin-top: 8px;
@@ -31,13 +30,31 @@ input[type="submit"]{
     border-radius: 6px;
     cursor: pointer;
 }
-input[type="submit"]:hover{
+div.one input[type="submit"]:hover{
     background-color: green;
 }
-div{
+div.one{
     background-color: #d8d3d3;
     padding: 12px;
     border-radius: 6px;
+    margin: 40px 0;
 }
 
 /* form number 2 */
+
+div.two{
+    background-color: #d8d3d3;
+    padding: 12px;
+    border-radius: 6px;
+    background-image: url();
+}
+
+div.two h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+div.two input[type="text"]{
+    width: 100%;
+    background-image: url("search-icon.png");
+}
